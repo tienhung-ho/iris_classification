@@ -1,0 +1,51 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Cấu hình và môi trường ảo Python
+.env
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Cấu hình Flask (tệp .env chứa các biến môi trường như SECRET_KEY)
+.env
+
+# Database tạm thời và SQLite database files
+*.db
+*.sqlite3
+
+# Logs and debug information
+*.log
+
+# Tệp tạm thời và cache của hệ thống
+*.bak
+*.swp
+*.swo
+*.tmp
+
+# Flask-Specific
+instance/
+config.py
+
+# Static files (nếu bạn có thể build lại, không cần upload)
+static/
+
+# NPM and Node.js nếu bạn dùng cho frontend (nếu có)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Tệp phụ thuộc của Python
+*.egg
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+
+# Vercel build output (nếu có)
+.vercel/

@@ -1,0 +1,4 @@
+Flask
+joblib
+numpy
+vercel-wsgi
