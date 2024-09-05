@@ -4,10 +4,10 @@ import numpy as np
 from wtforms import Form, FloatField, validators
 
 # Load mô hình Naive Bayes đã được lưu
-model = joblib.load('../model/naive_bayes_model.pkl')
+model = joblib.load('model/naive_bayes_model.pkl')
 
 # Flask app
-app = Flask(__name__, template_folder='../templates', static_folder='../static')
+app = Flask(__name__, template_folder='templates', static_folder='static')
 
 
 

@@ -47,5 +47,9 @@ dist/
 build/
 pip-wheel-metadata/
 
+.train_model.py
+
+.idea
+
 # Vercel build output (nếu có)
 .vercel/
